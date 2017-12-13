@@ -1,0 +1,17 @@
+{
+  "name": "@considonet/g-assignbodyclasses",
+  "version": "1.2.0",
+  "description": "Browser environment HTML body classes auto-assigner",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gstrap"
+  ],
+  "author": "ConsidoNet Solutions Paweł Gabryelewicz",
+  "license": "MIT",
+    "dependencies": {
+	  "@considonet/g-env": "^1.0.4"
+  }
+}
