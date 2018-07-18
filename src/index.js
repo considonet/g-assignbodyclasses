@@ -1,9 +1,14 @@
-// G.assignbodyclasses 1.2.1.20180214
+// G.assignbodyclasses 2.0.0
 // Copyright (C) 2013-2018 ConsidoNet Solutions / www.considonet.com
 // Released under MIT Licence
 
 /*
 VERSION HISTORY
+2.0.0 (20180718) @pg
++ Switched to semver
+* Dist package now transpiled from ES6 (compatibility with building environments not transpiling node_modules)
++ Source linted with tslint
+
 1.2.1.20180214 @pg
 + TypeScript declarations
 
@@ -17,11 +22,11 @@ VERSION HISTORY
 + Initial version
 
 */
-import GEnv from '@considonet/g-env';
+import GEnv from "@considonet/g-env";
 
 document.addEventListener("DOMContentLoaded", () => {
 
-  const hasClass = (el, className) => el.classList ? el.classList.contains(className) : Boolean(el.className.match(new RegExp('(\\s|^)' + className + '(\\s|$)')));
+  const hasClass = (el, className) => el.classList ? el.classList.contains(className) : Boolean(el.className.match(new RegExp("(\\s|^)" + className + "(\\s|$)")));
 
   const addClass = (el, className) => {
 

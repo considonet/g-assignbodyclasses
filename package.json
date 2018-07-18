@@ -1,9 +1,9 @@
 {
   "name": "@considonet/g-assignbodyclasses",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "description": "Browser environment HTML body classes auto-assigner",
-  "main": "./src/index.js",
-  "typings": "./src/index.d.ts",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +12,13 @@
   ],
   "author": "ConsidoNet Solutions Paweł Gabryelewicz",
   "license": "MIT",
-    "dependencies": {
-	  "@considonet/g-env": "^1.0.4"
+  "dependencies": {
+    "@considonet/g-env": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "tslint": "^5.11.0",
+    "typescript": "^2.9.2"
   }
 }
