@@ -4,7 +4,7 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 
 var GEnv = _interopDefault(require('@considonet/g-env'));
 
-// G.assignbodyclasses 2.1.0
+// G.assignbodyclasses 2.1.1
 
 document.addEventListener("DOMContentLoaded", function () {
 
