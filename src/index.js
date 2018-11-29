@@ -1,9 +1,13 @@
-// G.assignbodyclasses 2.0.0
+// G.assignbodyclasses 2.1.0
 // Copyright (C) 2013-2018 ConsidoNet Solutions / www.considonet.com
 // Released under MIT Licence
 
 /*
 VERSION HISTORY
+2.1.0 (20181129) @pg
++ Switched to git (now available on github)
++ Now built with rollup
+
 2.0.0 (20180718) @pg
 + Switched to semver
 * Dist package now transpiled from ES6 (compatibility with building environments not transpiling node_modules)
